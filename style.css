@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: Pacifico;
+    font-weight: bold;
+}
+
+body{
+    background-color: var(--use-color);
+}
+
+.container{
+    margin: auto;
+    display: table;
+    margin-top: 20px;
+    max-width: 1200px;
+    text-align: center;
+    
+}
+
+:root{
+
+    --main-color: #040714;
+    --site-color: #fff;
+    --active-color: #0063e5;
+    --first-color: #08132f;
+    --second-color: #090b13;
+    --third-color: #1b202a;
+    --use-color: #82F5BC;
+    
+}
+
+input{
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    font-family: Pacifico;
+}
+
+button{
+    margin-top: 10px; 
+    padding: 10px;
+    background-color: var(--active-color);
+    color: white;
+    font-family: Pacifico;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+}
+
+
+button:hover{
+    background: none;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    height: 20%;
+
+}
+
+
